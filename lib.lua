@@ -49,7 +49,6 @@ while getgenv().enabled do
 					if chr:FindFirstChild("Humanoid").Health >= 0 and chr:FindFirstChild("Humanoid").Health <= 39 then 
 						esp.OutlineColor = Color3.new(1, 0, 0)
 					end
-					esp.OutlineColor = chr:FindFirstChild("Humanoid").Health
 				else
 					esp.OutlineColor = outlinecolor
 				end
