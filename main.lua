@@ -8,4 +8,4 @@ getgenv().outlinecolor = Color3.new(0,0,0) --Change outline color, no need to ed
 getgenv().filltrans = 1 --Change fill transparency
 getgenv().outlinetrans = 0 --Change outline transparency
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zntly/highlight-esp/main/esp.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahlol96/highlightesp/main/lib.lua"))()
